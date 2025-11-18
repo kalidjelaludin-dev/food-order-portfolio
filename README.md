@@ -52,5 +52,6 @@ Feel free to reach out :
 - GitHub: [kalidjelaudin-dev](https://github.com/kalidjelaludin-dev)  
 - Email: kalidjelaludin8@gmail.com
 -fiverr: https://www.fiverr.com/s/38jelXa
+-up work: https://www.upwork.com/freelancers/~014531b26e3d588847?mp_source=share
 -contra: https://contra.com/kalid_jelaludin_f222dqhu?referralExperimentNid=DEFAULT_REFERRAL_PROGRAM&referrerUsername=kalid_jelaludin_f222dqhu 
 

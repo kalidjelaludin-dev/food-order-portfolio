@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styl.css" />
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ተባረክ ሬስቶራንት</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>ተባረክ ሬስቶራንት</h1>
+        <nav>
+            <a href="#menu">Menu</a>
+            <a href="#order">Order</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>ትኩስ. ፈጣን. ጣፋጭ.</h2>
+        <p> የመረጣችሁትን ምግብ በሰክዶች ውስጥ ይዘዙ.</p>
+        <a href="#menu" class="btn">ያሉን ምግቦች</a>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="item1 ">
+                <h3 class="h3"> ፍርፍር</h3>
+                <p class="h3">100 ብር</p>
+            </div>
+            <div class="item2">
+                <h3 class="h3"> ስፔሻል</h3>
+                <p class="h3">130 ብር</p>
+            </div>
+            <div class="item3">
+                <h3 class="h3"> በያይነት </h3>
+                <p class="h3">100 ብር</p>
+            </div>
+            <div class="item4">
+                <h3 class="h3"> ድንች </h3>
+                <p class="h3"> 90 ብር</p>
+            </div>
+            <div class="item5">
+                <h3 class="h3"> ፓስታ በስጎ</h3>
+                <p class="h3"> 100 ብር </p>
+            </div>
+
+            <div class="item">
+                <h3 class="h3">ፓስታ በአትክልት</h3>
+                <p class="h3"> 110 ብር </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="order">
+        <h2>Place Your Order</h2>
+        <form id="orderForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required />
+
+            <label for="dish">Select Dish:</label>
+            <select id="dish" required>
+                <option value="">-Choose-</option>
+                <option value="ሙሉ ፍርፍር">ሙሉ ፍርፍር</option>
+                <option class="ግማሽ ፍርፍር"> ግማሽ ፍርፍር </option>
+                <option value="ስፔሻል" class="special">ስፔሻል</option>
+                <option value="በያይነት" class="beyaynet">በያይነት</option>
+                <option class="ፓስታ በስጎ"> ፓስታ በስጎ</option>
+                <option class="ፓስታ ባትክልት"> ፓስታ በአትክልት</option>
+
+            </select>
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" min="1" max="10" required />
+
+            <button type="submit">Submit Order</button>
+        </form>
+        <div id="confirmation"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Delish Dine. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -24,8 +24,8 @@ Welcome to **food-order**, a front-end practice project designed to simulate an 
 
 ## 🚀 Live Demo
 
-[Click here to view the live site](https://your-netlify-link.netlify.app)  
-*(Replace with your actual Netlify or GitHub Pages link)*
+[Click here to view the live site](https://bespoke-sorbet-841bd2.netlify.app/)  
+
 
 ## 🛠️ Technologies Used
 

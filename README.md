@@ -1,4 +1,4 @@
-# Delish Dine – Front-End Practice Project
+# food-order – Front-End Practice Project
 
 Welcome to **food-order**, a front-end practice project designed to simulate an Ethiopian food ordering website. This project is part of my personal portfolio to showcase my skills in HTML, CSS, javaScript and user interface design.
 
